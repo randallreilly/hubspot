@@ -1,0 +1,16 @@
+{
+  "name": "Submit a Reach Form",
+  "description": "Use this to submit a reach campaign form in the HubSPot platform.",
+  "scopes": ["crm.objects.contacts.read", "crm.objects.contacts.write"],
+  "uid": "iframe-submit-reach-form",
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "extensions/iframe-submit-reach-form.json"
+        }
+      ]
+    }
+  }
+}
